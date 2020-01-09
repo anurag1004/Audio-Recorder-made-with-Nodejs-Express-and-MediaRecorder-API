@@ -4,7 +4,6 @@ multer=require('multer'),
 upload=multer(),
 mongoose   = require('mongoose'),
 bodyParser = require('body-parser'),
-ffmpeg=require('ffmpeg');
 fs=require('fs'),
 https=require('https');
 app.set('view engine', 'ejs');
